@@ -1,9 +1,63 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Tags cheat sheet</title>
+    <link href="styles.css" rel="stylesheet"/>
+    <!---Raleway font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- font-family: "Raleway", sans-serif; for css-->
+</head>
 <body>
-  <h1>Eshanel</h1>
-  <p>Welcome to my website!!</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
+    <!--Site title-->
+    <div class="title">
+        <h1 id="header">HTML Common tags</h1>
+        <h2 id="site-description">Shanelus cheatsheet to most important HTML knowledge</h2>
+        <p>and some CSS</p>
+    </div>
+<!-- 1st table Most important-->
+    <div id="table1">
+        <h3 class="table-title">First things first (structural elements)</h3>
+    <table>
+        <thead>
+            <tr>
+                <th scope="col">Tag</th>
+                <th scope="col">Name</th>
+                <th scope="col">Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr scope="row">
+                <td>&lt;!DOCTYPE html&gt;</td>
+                <td>Document type Declaration</td>
+                <td>It's used to define the document type and version of HTML being used. <span class="important">Always used at the beggining of documents</span></td>
+            </tr>
+            <tr scope="row">
+                <td>&lt;html&gt;</td>
+                <td>HTML tag</td>
+                 <td>Encloses al of HTML code in the page <span class="important">Comes right after the doctype declaration</span></td>
+            </tr>
+            <tr scope="row">
+                <td>&lt;head&gt;</td>
+                <td>Head tag</td>
+                <td>Encloses the metadata of the page<span class="importnat">Lives inside the &lt;html&gt; tag</span></td>
+            </tr>
+            <tr scope="row">
+                <td>&lt;body&gt;</td>
+                <td>Body tag</td>
+                <td>Encloses the main content of the document, including text, images, links, and other elements that are visible to users. <span class="importnat">Lives inside the &lt;html&gt; tag </span></td>
+            </tr>
+            <tr scope="row">
+                <td>&lt;link&gt;</td>
+                <td>Link element</td>
+                <td>Used to link CSS files and web fonts <span class="importnat">Live inside the &lt;head&gt; element</span></td>
+            </tr>
+            <tr></tr>   
+        </tbody>
+    </table>
+    </div>
 </body>
-
 </html>

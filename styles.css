@@ -1,0 +1,22 @@
+*{
+ font-family: "Raleway", sans-serif;
+ background-color: #c6e899;
+
+}
+.title {
+    text-align: center;
+}
+
+.table-title {
+    text-align: center;
+}
+
+#table1 {
+    width: 700px;
+}
+
+table {
+    border: 1px solid rgb(140 140 140);
+    border-collapse: collapse;
+    font-size: 0.8em;
+}
